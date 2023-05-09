@@ -1,0 +1,173 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+#section2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 {
+    background: linear-gradient(
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+        );
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 2rem 2rem;
+}
+
+#circle {
+    background: linear-gradient(
+        hsla(256, 72%, 46%, 0.5),
+        hsla(241, 72%, 46%, 0.5),
+        hsla(241, 72%, 46%, 0)
+    );
+    border-radius: 50%;
+    width: 8rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#result {
+    color: hsl(241, 100%, 89%);
+    margin: 1rem;
+}
+section {
+    max-width: 400px;
+    margin: auto;
+    min-width: 330px;
+}
+
+#circle p {
+    color: hsla(241, 100%, 89%,0.5);
+}
+
+h2 {
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+#text {
+    margin: 0 3rem 2rem 3rem;
+    color: hsl(241, 100%, 89%);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem;
+    color: hsl(224, 30%, 27%);
+}
+
+.Reaction h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+.Memory h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal h4 {
+    color:hsl(166, 100%, 37%);
+}
+
+.Visual h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+#section2 p {
+    opacity: 0.9;
+}
+
+span {
+    color: hsl(241, 100%, 89%);
+}
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.Reaction {
+    background-color: hsla(0, 100%, 67%,0.05);
+}
+
+.Memory {
+    background-color: hsla(39, 100%, 56%,0.05);
+}
+
+.Verbal {
+    background-color: hsla(166, 100%, 37%,0.05);
+}
+
+.Visual {
+    background-color: hsla(234, 85%, 45%,0.05);
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.8rem 7rem;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+}
+
+@media (width > 800px) {
+    body {
+        height: 100vh;
+        display: flex;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 2rem;
+    }
+
+    #section1 {
+        border-radius: 2rem;
+    }
+
+    #circle {
+        width: 12rem;
+    }
+
+    #text {
+        margin: 0 4rem 3rem 4rem;
+    }
+
+    #result {
+        margin: 2rem;
+        font-size: 1.1rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+}
